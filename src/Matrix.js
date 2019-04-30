@@ -10,9 +10,9 @@ state = {
 }
 
 
-handleClick = (e) => {
+handleClick = (event) => {
   this.setState({
-    colorSelector: e.target.dataset.name
+    colorSelector: event.target.dataset.name
   })
 }
 
